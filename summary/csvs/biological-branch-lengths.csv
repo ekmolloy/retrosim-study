@@ -1,0 +1,11 @@
+BIPA,BIPB,BRLN_TENT,BRLN_MAP_GT,BRLN_MLE_GT,BRLN_MLE_RI,Q1,Q2,Q3,EN,PP
+"aptHaa,aptOwe,aptRow,casCas,droNov,galGal,rheAme,rhePen,strCam","cryCin,eudEle,notPer,tinGut",3.0872,5.604303,7.10647,5.416246,0.999453,0.0,0.000547,522.785714,1.0
+"aptHaa,aptOwe","aptRow,casCas,cryCin,droNov,eudEle,galGal,notPer,rheAme,rhePen,strCam,tinGut",1.0655,3.4998690000000003,3.8986,2.835798,0.9864860000000001,0.0,0.013513999999999998,148.0,1.0
+"aptHaa,aptOwe,aptRow,casCas,cryCin,droNov,eudEle,galGal,notPer,strCam,tinGut","rheAme,rhePen",4.16743,7.346641,inf,inf,1.0,0.0,0.0,2325.466667,1.0
+"aptHaa,aptOwe,aptRow","casCas,cryCin,droNov,eudEle,galGal,notPer,rheAme,rhePen,strCam,tinGut",3.01202,6.304492,inf,inf,1.0,0.0,0.0,819.535714,1.0
+"aptHaa,aptOwe,aptRow,casCas,droNov","cryCin,eudEle,galGal,notPer,rheAme,rhePen,strCam,tinGut",0.053167,0.25280199999999997,0.288954,0.258669,0.500635,0.240152,0.259212,26.233333000000002,0.891379
+"aptHaa,aptOwe,aptRow,cryCin,eudEle,galGal,notPer,rheAme,rhePen,strCam,tinGut","casCas,droNov",1.95468,3.6965879999999998,inf,inf,1.0,0.0,0.0,59.464286,1.0
+"aptHaa,aptOwe,aptRow,casCas,droNov,rheAme,rhePen","cryCin,eudEle,galGal,notPer,strCam,tinGut",0.019359,0.893818,1.117588,0.8656969999999999,0.7819550000000001,0.14285699999999998,0.075188,13.3,0.998308
+"aptHaa,aptOwe,aptRow,casCas,droNov,eudEle,galGal,notPer,rheAme,rhePen,strCam","cryCin,tinGut",1.15143,4.715518,5.405676000000001,4.011908,0.997006,0.002994,0.0,334.0,1.0
+"aptHaa,aptOwe,aptRow,casCas,cryCin,droNov,eudEle,notPer,rheAme,rhePen,tinGut","galGal,strCam",0.387391,2.538974,inf,inf,1.0,0.0,0.0,18.0,1.0
+"aptHaa,aptOwe,aptRow,casCas,cryCin,droNov,galGal,rheAme,rhePen,strCam,tinGut","eudEle,notPer",0.309131,1.708109,1.8123790000000002,1.340837,0.891156,0.027211000000000003,0.081633,73.5,1.0

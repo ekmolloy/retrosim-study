@@ -1,0 +1,20 @@
+\begin{table}
+\centering
+\caption{Add caption...1000RIs}
+\begin{tabular}{cccccc}
+\toprule
+Clade & $\sigma^*$ & $\hat{\sigma}$ & local PP & $EN$ & \#STwC\\
+\midrule
+Chilean_tinamou,Okarito_brown_kiwi,chicken,elegant_crested_tinamou,emu,great_spotted_kiwi,greater_rhea,lesser_rhea,little_spotted_kiwi,ostrich,southern_cassowary,thicket_tinamou,white-throated_tinamouChilean_tinamou,Okarito_brown_kiwi,elegant_crested_tinamou,emu,great_spotted_kiwi,greater_rhea,lesser_rhea,little_spotted_kiwi,ostrich,southern_cassowary,thicket_tinamou,white-throated_tinamouChilean_tinamou,Okarito_brown_kiwi,elegant_crested_tinamou,emu,great_spotted_kiwi,greater_rhea,lesser_rhea,little_spotted_kiwi,southern_cassowary,thicket_tinamou,white-throated_tinamou & $0.3874$ & $0.3565 \pm 0.1264$ & $0.98 \pm 0.03$ & $68.49 \pm 6.02$ & $25$\\
+Chilean_tinamou,elegant_crested_tinamou,thicket_tinamou,white-throated_tinamou & $3.0872$ & $3.3275 \pm 0.6096$ & $1.00 \pm 0.00$ & $199.28 \pm 11.32$ & $25$\\
+thicket_tinamou,white-throated_tinamou & $1.1514$ & $1.1556 \pm 0.2020$ & $1.00 \pm 0.00$ & $92.54 \pm 7.90$ & $25$\\
+Chilean_tinamou,elegant_crested_tinamou & $0.3091$ & $0.3551 \pm 0.0886$ & $1.00 \pm 0.01$ & $69.88 \pm 6.92$ & $25$\\
+Okarito_brown_kiwi,emu,great_spotted_kiwi,greater_rhea,lesser_rhea,little_spotted_kiwi,southern_cassowary & $0.0194$ & $0.0741 \pm 0.0485$ & $0.58 \pm 0.18$ & $65.10 \pm 5.45$ & $8$\\
+greater_rhea,lesser_rhea & $4.1674$ & $5.2487 \pm 2.1562$ & $1.00 \pm 0.00$ & $262.06 \pm 12.08$ & $25$\\
+Okarito_brown_kiwi,emu,great_spotted_kiwi,little_spotted_kiwi,southern_cassowary & $0.0532$ & $0.0880 \pm 0.0459$ & $0.62 \pm 0.16$ & $63.63 \pm 4.27$ & $13$\\
+emu,southern_cassowary & $1.9547$ & $1.9612 \pm 0.1890$ & $1.00 \pm 0.00$ & $134.20 \pm 10.51$ & $25$\\
+Okarito_brown_kiwi,great_spotted_kiwi,little_spotted_kiwi & $3.0120$ & $3.4374 \pm 0.6732$ & $1.00 \pm 0.00$ & $197.27 \pm 12.00$ & $25$\\
+great_spotted_kiwi,little_spotted_kiwi & $1.0655$ & $1.0879 \pm 0.1438$ & $1.00 \pm 0.00$ & $89.84 \pm 8.33$ & $25$\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,23 @@
+\begin{landscape}
+\begin{table}
+\caption{Add caption...}
+\begin{tabular}{l c cc r}
+\toprule
+Clade & ASTRAL TENT Analysis & \multicolumn{3}{c}{ASTRAL\_BP Analysis} \\
+& Branch Length  & Branch Length & Quartet Support & EN \\
+&  MAP-GT & MAP-GT / MLE-GT / MLE-RI & & \\
+\midrule
+aptHaa,aptOwe,aptRow,casCas,droNov,rheAme,rhePen vs. cryCin,eudEle,galGal,notPer,strCam,tinGut & 0.0194 & 0.8938 / 1.1176 / 0.8657 & 0.7820 / 0.1429 / 0.0752 & 13.30 \\
+aptHaa,aptOwe,aptRow,casCas,droNov vs. cryCin,eudEle,galGal,notPer,rheAme,rhePen,strCam,tinGut & 0.0532 & 0.2528 / 0.2890 / 0.2587 & 0.5006 / 0.2402 / 0.2592 & 26.23 \\
+aptHaa,aptOwe,aptRow,casCas,cryCin,droNov,galGal,rheAme,rhePen,strCam,tinGut vs. eudEle,notPer & 0.3091 & 1.7081 / 1.8124 / 1.3408 & 0.8912 / 0.0272 / 0.0816 & 73.50 \\
+aptHaa,aptOwe,aptRow,casCas,cryCin,droNov,eudEle,notPer,rheAme,rhePen,tinGut vs. galGal,strCam & 0.3874 & 2.5390 / inf / inf & 1.0000 / 0.0000 / 0.0000 & 18.00 \\
+aptHaa,aptOwe vs. aptRow,casCas,cryCin,droNov,eudEle,galGal,notPer,rheAme,rhePen,strCam,tinGut & 1.0655 & 3.4999 / 3.8986 / 2.8358 & 0.9865 / 0.0000 / 0.0135 & 148.00 \\
+aptHaa,aptOwe,aptRow,casCas,droNov,eudEle,galGal,notPer,rheAme,rhePen,strCam vs. cryCin,tinGut & 1.1514 & 4.7155 / 5.4057 / 4.0119 & 0.9970 / 0.0030 / 0.0000 & 334.00 \\
+aptHaa,aptOwe,aptRow,cryCin,eudEle,galGal,notPer,rheAme,rhePen,strCam,tinGut vs. casCas,droNov & 1.9547 & 3.6966 / inf / inf & 1.0000 / 0.0000 / 0.0000 & 59.46 \\
+aptHaa,aptOwe,aptRow vs. casCas,cryCin,droNov,eudEle,galGal,notPer,rheAme,rhePen,strCam,tinGut & 3.0120 & 6.3045 / inf / inf & 1.0000 / 0.0000 / 0.0000 & 819.54 \\
+aptHaa,aptOwe,aptRow,casCas,droNov,galGal,rheAme,rhePen,strCam vs. cryCin,eudEle,notPer,tinGut & 3.0872 & 5.6043 / 7.1065 / 5.4162 & 0.9994 / 0.0000 / 0.0006 & 522.79 \\
+aptHaa,aptOwe,aptRow,casCas,cryCin,droNov,eudEle,galGal,notPer,strCam,tinGut vs. rheAme,rhePen & 4.1674 & 7.3466 / inf / inf & 1.0000 / 0.0000 / 0.0000 & 2325.47 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{landscape}

@@ -1,0 +1,20 @@
+\begin{table}
+\centering
+\caption{Add caption...5000RIs}
+\begin{tabular}{cccccc}
+\toprule
+Clade & $\sigma^*$ & $\hat{\sigma}$ & local PP & $EN$ & \#STwC\\
+\midrule
+Chilean_tinamou,Okarito_brown_kiwi,chicken,elegant_crested_tinamou,emu,great_spotted_kiwi,greater_rhea,lesser_rhea,little_spotted_kiwi,ostrich,southern_cassowary,thicket_tinamou,white-throated_tinamouChilean_tinamou,Okarito_brown_kiwi,elegant_crested_tinamou,emu,great_spotted_kiwi,greater_rhea,lesser_rhea,little_spotted_kiwi,ostrich,southern_cassowary,thicket_tinamou,white-throated_tinamouChilean_tinamou,Okarito_brown_kiwi,elegant_crested_tinamou,emu,great_spotted_kiwi,greater_rhea,lesser_rhea,little_spotted_kiwi,southern_cassowary,thicket_tinamou,white-throated_tinamou & $0.3874$ & $0.3785 \pm 0.0492$ & $1.00 \pm 0.00$ & $338.72 \pm 14.26$ & $25$\\
+Chilean_tinamou,elegant_crested_tinamou,thicket_tinamou,white-throated_tinamou & $3.0872$ & $3.1928 \pm 0.2265$ & $1.00 \pm 0.00$ & $998.28 \pm 27.17$ & $25$\\
+thicket_tinamou,white-throated_tinamou & $1.1514$ & $1.1531 \pm 0.0588$ & $1.00 \pm 0.00$ & $470.89 \pm 23.10$ & $25$\\
+Chilean_tinamou,elegant_crested_tinamou & $0.3091$ & $0.3217 \pm 0.0338$ & $1.00 \pm 0.00$ & $339.69 \pm 15.81$ & $25$\\
+Okarito_brown_kiwi,emu,great_spotted_kiwi,greater_rhea,lesser_rhea,little_spotted_kiwi,southern_cassowary & $0.0194$ & $0.0372 \pm 0.0198$ & $0.60 \pm 0.15$ & $313.97 \pm 14.17$ & $13$\\
+greater_rhea,lesser_rhea & $4.1674$ & $4.2161 \pm 0.2535$ & $1.00 \pm 0.00$ & $1337.77 \pm 32.06$ & $25$\\
+Okarito_brown_kiwi,emu,great_spotted_kiwi,little_spotted_kiwi,southern_cassowary & $0.0532$ & $0.0625 \pm 0.0228$ & $0.80 \pm 0.13$ & $322.49 \pm 11.39$ & $23$\\
+emu,southern_cassowary & $1.9547$ & $1.9708 \pm 0.1071$ & $1.00 \pm 0.00$ & $672.95 \pm 20.33$ & $25$\\
+Okarito_brown_kiwi,great_spotted_kiwi,little_spotted_kiwi & $3.0120$ & $3.0928 \pm 0.2305$ & $1.00 \pm 0.00$ & $977.75 \pm 23.41$ & $25$\\
+great_spotted_kiwi,little_spotted_kiwi & $1.0655$ & $1.0710 \pm 0.0811$ & $1.00 \pm 0.00$ & $447.04 \pm 15.55$ & $25$\\
+\bottomrule
+\end{tabular}
+\end{table}
