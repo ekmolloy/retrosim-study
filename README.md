@@ -1,4 +1,6 @@
-This repository contains data sets and scripts used in the study, ``Theoretical and practical considerations when using retroelement insertions to estimate species trees in the anomaly zone,'' available on [bioRxiv](https://doi.org/10.1101/2020.09.29.319038). The Python script to run ASTRAL_BP is [here](tools/run_astral_bp.py).
+This repository contains data sets and scripts used in the study, ``[Theoretical and practical considerations when using retroelement insertions to estimate species trees in the anomaly zone](https://doi.org/10.1093/sysbio/syab086).'' 
+
+The Python script to run ASTRAL_BP is [here](tools/run_astral_bp.py); it requires [TreeSwift](https://github.com/niemasd/treeswift) as a dependency.
 
 scripts directory
 ------------------
