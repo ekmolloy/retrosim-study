@@ -13,9 +13,9 @@ mthds = ["parsimony-strict",
          "mdc-bp-ur"]
 
 cols = ["MODL", "NRET", "MTHD", "THRC",
-        "AVG_FNR", "AVG_FPR",
-        "STD_FNR", "STD_FPR",
-        "SE_FNR", "SE_FPR",
+        "AVG_FN", "AVG_FP", "AVG_FNR", "AVG_FPR",
+        "STD_FN", "STD_FP", "STD_FNR", "STD_FPR",
+        "SE_FN", "SE_FP", "SE_FNR", "SE_FPR",
         "NREP"]
 rows = []
 
@@ -36,17 +36,33 @@ for modl in ["5taxa", "6taxa", "26taxa", "Palaeognathae"]:
 				print(ydf)
 				sys.exit("Missing replicates!\n")
 
+			fnr = ydf["FN"] / ydf["NINT_TRUE"]
+			fpr = ydf["FP"] / ydf["NINT_ESTI"]  # Correcting formula
+
 			row = {}
 			row["MODL"] = modl
 			row["NRET"] = nret
 			row["MTHD"] = mthd
 			row["THRC"] = 0.0
-			row["AVG_FNR"] = numpy.mean(ydf.FNR.values)
-			row["AVG_FPR"] = numpy.mean(ydf.FPR.values)
-			row["STD_FNR"] = numpy.std(ydf.FNR.values)
-			row["STD_FPR"] = numpy.std(ydf.FPR.values)
-			row["SE_FNR"] = numpy.std(ydf.FNR.values) / numpy.sqrt(25)
-			row["SE_FPR"] = numpy.std(ydf.FPR.values) / numpy.sqrt(25)
+
+			row["AVG_FN"] = numpy.mean(ydf["FN"])
+			row["AVG_FP"] = numpy.mean(ydf["FP"])
+
+			row["STD_FN"] = numpy.std(ydf["FN"])
+			row["STD_FP"] = numpy.std(ydf["FP"])
+
+			row["SE_FN"] = row["STD_FN"] / numpy.sqrt(25)
+			row["SE_FP"] = row["STD_FP"] / numpy.sqrt(25)
+
+			row["AVG_FNR"] = numpy.mean(fnr)
+			row["AVG_FPR"] = numpy.mean(fpr)
+
+			row["STD_FNR"] = numpy.std(fnr)
+			row["STD_FPR"] = numpy.std(fpr)
+
+			row["SE_FNR"] = row["STD_FNR"] / numpy.sqrt(25)
+			row["SE_FPR"] = row["STD_FPR"] / numpy.sqrt(25)
+
 			row["NREP"] = 25
 			rows.append(row)
 
