@@ -90,10 +90,12 @@ def compare_trees(tr1, tr2):
     if i1 != nl - 3:
         print("WARNING: True tree is not binary!")
 
-    #fpr = fp / i1  # Divided by # of internal branches in true species tree!
-    fpr = fp / i2  # CORRECTION
-    fnr = fn / i1  # Divided by # of internal branches in true species tree!
-    rf = (fn + fp) / (i1 + i1)
+    #fpr = fp / i1              # Divided by # of internal branches in true species tree!
+    fpr = fp / i2               # CORRECTION Divided # of internal branches in estimated tree!
+    fnr = fn / i1               # Divided by # of internal branches in true species tree!
+
+    rf = (fn + fp) / (i1 + i1)  # Not good for binary trees
+    sd = (fn + fp) / (i1 + i2)  # Symmetric difference?
 
     return(nl, i1, i2, fn, fp, fnr, fpr, rf)
 
